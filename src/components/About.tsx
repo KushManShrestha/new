@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const stats = [
-    { icon: Calendar, label: 'Years Experience', value: '5+' },
-    { icon: Award, label: 'Projects Completed', value: '50+' },
-    { icon: User, label: 'Teams Collaborated', value: '15+' },
-    { icon: MapPin, label: 'Location', value: 'Nepal' },
-  ];
+  { icon: Calendar, label: 'Years Experience', value: '6+' },
+  { icon: Award, label: 'Projects Worked On', value: '20+' },
+  { icon: User, label: 'Cross-Functional Teams', value: '12+' },
+  { icon: MapPin, label: 'Location', value: 'Nepal' },
+];
 
   return (
     <section id="about" className="py-20 bg-gray-50">
