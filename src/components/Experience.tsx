@@ -18,7 +18,7 @@ const Experience = () => {
         'Mentor junior QA team members and establish testing best practices'
       ],
       achievements: [
-        'Reduced critical bugs in production by 40%',
+        'Reduced critical bugs in production',
         'Implemented CI/CD testing pipeline',
         'Established QA standards and documentation'
       ]
