@@ -99,16 +99,15 @@ const experiences = [
     company: 'Webbook Nepal',
     location: 'Nepal',
     period: 'Jan 2015 – Mar 2016',
-    website: '#',
+    website: 'https://www.facebook.com/people/Webbook-Nepal/100095166231966/',
     responsibilities: [
-      'Delivered on-site technical support to hotel clients across multiple regions.',
-      'Provided training on booking systems, POS, and IT tools.',
-      'Troubleshot hardware/software issues during and after deployments.',
+      'Delivered on-site technical support to hotel clients throughout Kathmandu.',
+      'Conducted training sessions on hotel management and restaurant billing systems.',
+      'Diagnosed and resolved hardware and software issues at client locations.',
       'Maintained service logs and client communication records.'
     ],
     achievements: [
-      'Successfully trained over 20 hospitality clients.',
-      'Resolved critical issues during high-stress deployments.',
+      'Successfully trained over 10 hospitality clients.',
       'Built and maintained strong customer satisfaction during support cycles.'
     ]
   }
@@ -144,21 +143,15 @@ const Experience = () => {
               viewport={{ once: true }}
               className="relative mb-12 last:mb-0"
             >
-              {/* Timeline Line */}
               {index < experiences.length - 1 && (
                 <div className="absolute left-8 top-16 w-0.5 h-full bg-blue-200 hidden md:block"></div>
               )}
-
-              {/* Timeline Dot */}
               <div className="absolute left-6 top-8 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg hidden md:block"></div>
 
-              {/* Content Card */}
               <div className="md:ml-16 bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                      {exp.title}
-                    </h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">{exp.title}</h3>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-gray-600 mb-4">
                       <div className="flex items-center space-x-2">
                         <Briefcase size={18} className="text-blue-600" />

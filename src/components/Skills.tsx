@@ -7,27 +7,9 @@ const Skills = () => {
       title: 'Testing Methodologies',
       skills: [
         { name: 'Manual Testing', level: 95 },
-        { name: 'Automated Testing', level: 88 },
-        { name: 'API Testing', level: 90 },
-        { name: 'Performance Testing', level: 85 },
-      ]
-    },
-    {
-      title: 'Tools & Frameworks',
-      skills: [
-        { name: 'Selenium WebDriver', level: 90 },
-        { name: 'Postman/REST APIs', level: 92 },
-        { name: 'JMeter', level: 80 },
-        { name: 'Cypress', level: 85 },
-      ]
-    },
-    {
-      title: 'Programming Languages',
-      skills: [
-        { name: 'Java', level: 85 },
-        { name: 'Python', level: 82 },
-        { name: 'JavaScript', level: 88 },
-        { name: 'SQL', level: 90 },
+        { name: 'Load Testing', level: 78 },
+        { name: 'API Testing', level: 82 },
+        { name: 'Security Testing', level: 73 },
       ]
     },
     {
@@ -42,10 +24,10 @@ const Skills = () => {
   ];
 
   const certifications = [
-    'ISTQB Foundation Level',
-    'Agile Testing Certification',
-    'Selenium WebDriver Certification',
-    'API Testing with Postman',
+    // 'ISTQB Foundation Level',
+    // 'Agile Testing Certification',
+    // 'Selenium WebDriver Certification',
+    // 'API Testing with Postman',
   ];
 
   return (
@@ -113,9 +95,9 @@ const Skills = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">
+          {/* <h3 className="text-2xl font-bold text-gray-900 mb-8">
             Professional Certifications
-          </h3>
+          </h3> */}
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {certifications.map((cert, index) => (
