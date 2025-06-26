@@ -25,7 +25,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Passionate QA Engineer with extensive experience in quality assurance, 
-            test automation, and software testing methodologies.
+            Project management, and software testing methodologies.
           </p>
         </motion.div>
 
@@ -43,10 +43,10 @@ const About = () => {
             
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                As a dedicated QA Engineer with over 5 years of experience, I specialize in 
+                As a dedicated QA Engineer with around 4 years of experience, I specialize in 
                 creating comprehensive testing strategies that ensure software reliability, 
                 performance, and user satisfaction. My expertise spans across manual testing, 
-                automated testing frameworks, and quality assurance best practices.
+                black-box and white-box testing, and quality assurance best practices.
               </p>
               
               <p>
@@ -57,9 +57,11 @@ const About = () => {
               </p>
               
               <p>
-                Currently working at InnovateTech, I lead quality assurance initiatives and 
-                collaborate with cross-functional teams to implement robust testing processes 
-                that reduce defects and improve overall product quality.
+                Currently working at InnovateTech, I lead quality assurance initiatives and manage 
+                projects while actively contributing to QA efforts. I collaborate with cross-functional 
+                teams to gather requirements, track progress, and ensure the timely delivery of high-quality 
+                software. My focus is on implementing robust testing processes that minimize defects and 
+                enhance overall product quality.
               </p>
             </div>
 
